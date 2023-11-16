@@ -13,4 +13,5 @@ To fix this, disabled CheckHostIP by adding the below config in your ~/.ssh/conf
 Host bitbucket.org
        CheckHostIP no
 
-# RCA : Everytime bitbucket.org is going to  change the IP address and it may cause the failure of git clone       
+# RCA : 
+Everytime bitbucket.org is going to  change the IP address and it may cause the failure of git clone       
