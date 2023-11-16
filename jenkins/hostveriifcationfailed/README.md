@@ -7,11 +7,11 @@ Please make sure you have the correct access rights
 and the repository exists."
 
 # Solution :
-Check whether "CheckHostIP" setting is enabled or not  by executing the below command, 
+1.Check whether "CheckHostIP" setting is enabled or not  by executing the below command, 
 
-  ssh -G bitbucket org | grep checkhostip
+        ssh -G bitbucket org | grep checkhostip
 
-To fix this, disabled CheckHostIP by adding the below config in your ~/.ssh/config file
+2. To fix this, disabled CheckHostIP by adding the below config in your ~/.ssh/config file
 
 Host bitbucket.org
        CheckHostIP no
