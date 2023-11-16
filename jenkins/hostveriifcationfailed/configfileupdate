@@ -1,0 +1,4 @@
+To fix this, we disabled CheckHostIP by adding the below config in your ~/.ssh/config file
+
+Host bitbucket.org
+       CheckHostIP no
